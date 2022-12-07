@@ -92,11 +92,11 @@
                                     </fieldset>
                                     <fieldset class="wrap-input">
                                         <label for="frm-reg-lname">Name*</label>
-                                        <input type="text" id="frm-reg-lname" :value="old('name')" name="nname" placeholder="Your name*" required autofocus autocomplete="name">
+                                        <input type="text" id="nname" :value="old('name')" name="name" placeholder="Your name*" required autofocus autocomplete="name">
                                     </fieldset>
                                     <fieldset class="wrap-input">
                                         <label for="frm-reg-email">Email Address*</label>
-                                        <input type="email" id="frm-reg-email" name="email"
+                                        <input type="email" id="email" name="email"
                                             placeholder="Email address" required :value="old('email')">
                                     </fieldset>
                                     <fieldset class="wrap-title">
